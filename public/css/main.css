@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,600,700');
+
+body{
+background:#ffffff;
+font-family: 'Montserrat', sans-serif;
+font-size:15px;
+color:#636e7b;
+}
+section{
+padding:70px 0px 60px 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color:#242c36;
+    margin: 0 0 15px 0;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.dark{
+background:#f4f5f7;
+}
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    height: 45px;
+    margin-bottom: 10px;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+
+.btn-primary, .btn-primary:hover,  .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #da0833;
+    border-color: #da0833;
+    text-transform: uppercase;
+    border-radius: 2px;
+    box-shadow: none;
+    padding: 10px 25px;
+}
+.form-control::-moz-placeholder{color:#8796a9;opacity:1}
+.form-control:-ms-input-placeholder{color:#8796a9}
+.form-control::-webkit-input-placeholder{color:#8796a9}
+
+/*-------------------Banner Start-----------------------*/
+.main-banner{
+background-size:cover !important;
+background-position:center !important;
+padding:14% 0;
+position:relative;
+text-align:center;
+color:#ffffff;
+margin:0;
+}
+.main-banner .caption{
+position:relative;
+}
+.main-banner h2{
+color:#ffffff;
+font-weight:200;
+display: block;
+ margin-bottom: 25px;
+}
+.main-banner:before{
+content:"";
+display:block;
+top:0;
+bottom:0;
+left:0;
+right:0;
+position:absolute;
+background:rgba(12,20,25,0.3);
+}
+fieldset {
+margin-top: 52px;
+background: rgba(255,255,255,0.3);
+padding: 2px 0px;
+}
+fieldset .no-pad{
+margin:0;
+padding:0;
+}
+.form-control, .seub1-btn{
+width: 80%;
+color: #6b797c;
+padding: 19px 10px;
+border: none;
+border-radius: 0;
+height: auto;
+line-height: 1.5;
+font-size: 15px;
+height:60px;
+}
+.main-banner fieldset select.selectpicker:focus, .main-banner fieldset .form-control:focus, .main-banner fieldset .seub-btn:focus{
+outline:none;
+}
+.main-banner fieldset .border-right{
+border-right:1px solid rgba(107,121,124,0.3) !important;
+}
+ .btn.seub-btn{
+background:#da0833 ;
+color:#ffffff;
+text-transform:uppercase;
+font-size:18px;
+text-shadow:none;
+line-height: 1.2;
+}
+
+.main-banner .btn.seub1-btn{
+    background:#161414 ;
+    color:#ffffff;
+    text-transform:uppercase;
+    font-size:18px;
+    text-shadow:none;
+    line-height: 1.2;
+    }
+
+/*--------------------Style for Browse Job----------------------*/
+.jobs .row{
+margin:0;
+}
+.heading{
+text-align:center;
+margin-bottom:30px;
+}
+.heading h2{
+font-weight:400;
+margin-bottom:10px;
+}
+.heading p{
+font-weight:300;
+font-size:17px;
+}
+.companies{
+margin-top:30px;
+}
+.company-logo{
+display: table;
+width: 100%;
+}
+.company-logo img{
+margin:0 auto;
+max-width:100px
+}
+
+.company-logo1{
+    margin:0 auto;
+    max-width:150px
+    }
+.company-content{
+    text-align: left;
+}
+.company-content h3{
+font-size:25px;
+font-weight:400;
+margin-bottom:10px;
+margin-top:7px;
+}
+.company-content h3 span {
+font-size: 13px;
+padding: 2px 20px;
+float: right;
+text-align: center;
+color: #ffffff;
+margin-top: 5px;
+display: inline-block;
+line-height: 1.7;
+border-radius: 2px;
+}
+.company-content p span{
+font-size:15px;
+margin-right:20px;
+margin-bottom:10px;
+}
+.company-content p span i{
+font-size:15px;
+margin-right:5px;
+}
+.company-list {
+background: #ffffff;
+margin: 12px 0;
+padding: 12px 0 12px 0;
+border:1px solid #f4f5f7;
+-webkit-box-shadow:0px 0px 10px 0px rgba(107,121,124,0.2);
+box-shadow:0px 0px 10px 0px rgba(107,121,124,0.2);
+}
+
+.brows-btn{
+background:#da0833 ;
+color:#ffffff;
+text-transform:uppercase;
+font-size:16px;
+display:table;
+text-shadow:none;
+line-height: 1.2;
+margin:20px auto;
+font-weight:400;
+padding:14px 25px;
+}
+/*--------------------Style for Job Filter----------------------*/
+.jobs{
+padding:60px 0;
+}
+.jobs .row{
+margin:0;
+}
+.heading{
+text-align:center;
+margin-bottom:30px;
+}
+.heading h2{
+font-weight:400;
+margin-bottom:10px;
+}
+.heading p{
+font-weight:300;
+font-size:20px;
+}
+.companies{
+margin-top:30px;
+}
+.company-logo{
+display: table;
+width: 100%;
+}
+.company-logo img{
+margin:0 auto;
+max-width:100px
+}
+
+.company-content h3{
+font-size:25px;
+font-weight:400;
+margin-bottom:10px;
+margin-top:7px;
+}
+.company-content h3 span {
+font-size: 13px;
+padding: 2px 20px;
+float: right;
+text-align: center;
+color: #ffffff;
+margin-top: 5px;
+display: inline-block;
+line-height: 1.7;
+border-radius: 2px;
+}
+.company-content p span{
+font-size:15px;
+margin-right:20px;
+margin-bottom:10px;
+}
+.company-content p span i{
+font-size:15px;
+margin-right:5px;
+}
+.company-list {
+background: #ffffff;
+margin: 12px 0;
+padding: 12px 0 12px 0;
+border:1px solid rgba(107,121,124,0.3);
+-webkit-box-shadow: 0 5px 25px 0 rgba(0,0,0,.07);
+box-shadow: 0 5px 25px 0 rgba(0,0,0,.07);
+}
+
+.brows-btn{
+background:#da0833;
+color:#ffffff;
+text-transform:uppercase;
+font-size:16px;
+display:table;
+text-shadow:none;
+line-height: 1.2;
+margin:20px auto;
+font-weight:400;
+padding:14px 25px;
+}
+.btn.view-job{
+border:none;
+background:#da0833;
+border-radius:50px;
+padding:1em 2em;
+display:block;
+margin-top:10px;
+width:100%;
+color:#ffffff;
+}
+
+.btn.view-job:hover{
+   
+
+    color: #fff;
+    background-color: #da0833;
+    border-color: #da0833;
+    text-transform: uppercase;
+  
+    box-shadow: none;
+    padding: 10px 25px;
+}
+.top-pad{
+padding-top:3em;
+}
+.filter-list{
+margin:0;
+padding:0;
+}
+
+/*-----------------------counter Section start-------------------------*/
+ .counter{
+background:#da0833;
+padding:60px 0;
+}
+
+.counter-text{
+text-align:center;
+color:#ffffff;
+}
+
+.counter-text h3{
+color:#ffffff;
+font-weight:400;
+font-size:32px;
+margin-bottom:5px;
+}
+
+.counter-text p{
+color:#ffffff;
+font-weight:400;
+font-size:17px;
+text-transform:uppercase;
+margin-bottom:0;
+}
+
+.counter-text span{
+font-size:35px;
+color:rgba(255,255,255,0.7);
+margin-bottom:15px;
+} 
+
+/*------------------footer design-------------------------*/
+footer{
+background:#242c36;
+padding:60px 0 30px 0;
+}
+
+
+footer h3{
+color:rgba(255,255,255,0.7);
+text-transform:uppercase;
+font-size:20px;
+font-weight:400;
+}
+
+
+/*---------------------------responsive start-----------------------*/
+@media only screen and (max-width: 767px){
+.social li{
+width:100%;
+}
+.main-banner select {
+    margin-bottom: 10px;
+}
+.company-content p span {
+    display: block;
+}
+.input-group {
+    width: 100%;
+    display: block;
+}
+.newsletter button.btn.btn-default {
+    margin: 5px 0;
+    width: 100%;
+    height: 42px;
+    border-radius: 2px;
+}
+.input-group-addon, .input-group-btn {
+display: table;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+.inner-banner h2{
+margin-bottom:2px;
+}
+.inner-banner p {
+    margin-top: 2px;
+}
+.basic-information p {
+    font-size: 14px;
+    line-height: 1.9;
+}
+}
+
+@media only screen and (min-width: 768px){
+
+.main-banner h2{
+font-size:82px;
+}
+.inner-banner h2{
+font-size:82px;
+}
+.social li{
+width:20%;
+}
+.newsletter button.btn.btn-default, .newsletter input.form-control {
+    height: 60px;
+	padding: 0 20px;
+}
+}
+
+
